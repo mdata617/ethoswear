@@ -238,3 +238,9 @@ footer {
     text-decoration: none; /* Removes the underline */
   }
   
+
+
+  body{
+    background-image: url('bg.jpg');
+    height: 1000px;
+  }

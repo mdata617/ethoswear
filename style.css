@@ -202,3 +202,39 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+
+
+/* Css For Buttons */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .centered-button {
+    display: inline-flex; /* Allows the button content to be aligned */
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-link {
+    color: white; /* White text for the link */
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
+    display: block; /* Ensures the link takes up the full button */
+    text-align: center; /* Centers the text inside the link */
+  }
+  
+
+
+
+  a {
+    text-decoration: none; /* Removes the underline */
+  }
+  
